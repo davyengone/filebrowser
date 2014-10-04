@@ -1,0 +1,24 @@
+{
+  "name": "directoryBrowser",
+  "version": "0.0.1",
+  "description": "\"using famous and node-webkit to build a file browser that works cross-platform\"",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "\"node-webkit",
+    "angularjs",
+    "famous",
+    "mocha",
+    "jasmine\""
+  ],
+  "author": "Davy Engone <davy@philos.io> (http://www.philos.io/)",
+  "license": "\"MIT\"",
+  "dependencies": {
+    "mocha": "^1.21.4"
+  }
+}
