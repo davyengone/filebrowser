@@ -1,7 +1,21 @@
 var Folder = require('../model/Folder');
 
+var should = require('chai').should();
+var expect = require('expect');
+
 describe('Folder', function() {
-	it('a folder should have a name');
-	it('a folder should have an unique name');
-	it('a folder should have a name');
+
+	describe('defaults', function() {
+
+		var folder = {}
+
+		beforeEach(function () {
+			folder = new Folder()
+		});
+		
+		it('a folder should have a name', function (done) {
+			expect(folder.name).to.not.be(undefined);
+		});
+	});
+
 });
